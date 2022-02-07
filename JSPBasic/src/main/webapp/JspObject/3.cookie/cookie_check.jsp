@@ -2,7 +2,8 @@
     pageEncoding="UTF-8"%>
 
 <%
-	//저장된 쿠키 가져오기
+	//자동로그인 기능 할때 필요함
+	//저장된 쿠키 가져오기 사용자 쿠키 있는지 확인
 	Cookie[] cookies = request.getCookies();
 
 	String str = null;
